@@ -45,7 +45,7 @@ public class Auth extends AsyncTask<String, Void, String> {
         Scanner scanner = null;
 
         try {
-            String urlString = "https://tkserver.serv00.net/logtry/login.php";
+            String urlString = "YOUR LOGIN PHP LINK HERE";
             String username = params[0];
             String password = params[1];
             JSONObject jsonPayload = new JSONObject();
