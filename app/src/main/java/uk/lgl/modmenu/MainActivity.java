@@ -19,8 +19,6 @@ public class MainActivity extends Activity {
     private TextView bottomTextView;
     private VideoView videoBackground;
     private MediaPlayer mediaPlayer;
-
-    // Native methods
     static native void setDarkStop(Context ctx);
     static native void setDarkStart(Context ctx);
 
@@ -42,13 +40,9 @@ public class MainActivity extends Activity {
         expiryStatusTextView = findViewById(R.id.expirystatus);
         bottomTextView = findViewById(R.id.textView3);
         videoBackground = findViewById(R.id.videoBackground);
-
-        // Set up MediaPlayer
         mediaPlayer = MediaPlayer.create(this, R.raw.music);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
-
-        // Set up video background
         try {
             Uri videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.back);
             videoBackground.setVideoURI(videoUri);
@@ -62,8 +56,6 @@ public class MainActivity extends Activity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        // Button click listeners
         startbtn.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View v) {
@@ -77,8 +69,6 @@ public class MainActivity extends Activity {
 					setDarkStop(MainActivity.this);
 				}
 			});
-
-        // Set text views
         homeTextView.setText("Welcome to the Injector Mod Menu!");
         expiryStatusTextView.setText("Status: Active");
         bottomTextView.setText("Powered by MrTurTsarRX");
@@ -87,7 +77,6 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onPause() {
 		super.onPause();
-		// Stop and release MediaPlayer when the activity is paused
 		if (mediaPlayer != null && mediaPlayer.isPlaying()) {
 			mediaPlayer.stop();
 			mediaPlayer.release();
@@ -98,7 +87,6 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onResume() {
 		super.onResume();
-		// Resume or recreate MediaPlayer when the activity is resumed
 		if (mediaPlayer == null) {
 			mediaPlayer = MediaPlayer.create(this, R.raw.music);
 			mediaPlayer.setLooping(true);
@@ -109,7 +97,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        // Additional cleanup in case onPause is not triggered
         if (mediaPlayer != null) {
             mediaPlayer.release();
             mediaPlayer = null;
