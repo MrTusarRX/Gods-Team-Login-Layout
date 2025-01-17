@@ -53,7 +53,7 @@ Below are screenshots of the APK's layout:
 ![Success Screen](./img/success.jpg)
 
 ### Floating Menu (Accessible After Login)
-![Floating Menu](./img/Floating.gif)
+![Floating Menu](./img/floating.gif)
 
 *Note: Replace `path/to/` with the actual paths to your screenshots in the repository.*
 
