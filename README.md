@@ -11,7 +11,7 @@ phpFile/ └── login.php
 
 
 # Download Src
-[Download Src](https://github.com/MrTusarRX/Gods-Team-LoginInjectorLgl/releases)
+[Click Here To Download Src](https://github.com/MrTusarRX/Gods-Team-LoginInjectorLgl/releases)
 ## Directory Structure
 
 
