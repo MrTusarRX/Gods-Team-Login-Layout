@@ -30,7 +30,7 @@ Below are screenshots of the APK's layout:
 ![Login Screen](./img/layout.jpg)
 
 ### Success Message
-![Success Screen](path/to/success_screen_screenshot.png)
+![Success Screen](./img/success.jpg)
 
 ### Floating Menu (Accessible After Login)
 ![Floating Menu](path/to/floating_menu_screenshot.png)
