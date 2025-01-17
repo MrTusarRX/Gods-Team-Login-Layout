@@ -66,4 +66,4 @@ Below are screenshots of the APK's layout:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/MrTusarRX/Gods-Team-Login-Layout.git
