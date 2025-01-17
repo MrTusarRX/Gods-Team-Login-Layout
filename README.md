@@ -9,6 +9,19 @@ phpFile/ └── login.php
 [Click here to visit Login.php](https://github.com/MrTusarRX/Gods-Team-Login-Layout/tree/main/phpFile)
 ## Directory Structure
 
+
+# Lgl Floating HexPatches
+
+**Lgl Floating HexPatches** is a powerful tool that allows you to modify a game’s functionality by injecting Hex values into the game’s library (lib). It enables real-time game modifications, providing a floating menu for user interaction and easy access to various patching options.
+
+## Features
+
+- **Hex Injection**: Inject custom Hex values into the game’s library (lib) to modify its functions, features, and behavior.
+- **Floating Menu**: A user-friendly floating menu that gives you quick access to options for Hex injections, configuration settings, and additional functionalities.
+- **Game Modding**: Enables modification of in-game data such as values, variables, or functions, making it ideal for customizing or modifying game behavior.
+- **Real-Time Updates**: Changes take effect immediately after injecting Hex values, offering dynamic game modding.
+- **Require**: A root device
+## Directory Structure
 ---
 
 ## Features
