@@ -9,6 +9,7 @@ phpFile/ └── login.php
 [Click here to visit Login.php](https://github.com/MrTusarRX/Gods-Team-Login-Layout/tree/main/phpFile)
 ## Directory Structure
 
+#[Download Src](https://github.com/MrTusarRX/Gods-Team-LoginInjectorLgl/releases)
 
 # Lgl Floating HexPatches
 
