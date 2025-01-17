@@ -27,7 +27,7 @@ This repository showcases a user login system implemented using Java, C++, and P
 Below are screenshots of the APK's layout:
 
 ### Login Screen
-![Login Screen](path/to/login_screen_screenshot.png)
+![Login Screen](./img/layout.jpg)
 
 ### Success Message
 ![Success Screen](path/to/success_screen_screenshot.png)
