@@ -2,6 +2,13 @@
 
 This repository showcases a user login system implemented using Java, C++, and PHP. The application validates user credentials to ensure the entered username and password are correct. A floating menu feature, controlled by C++ logic, is also included. The floating menu becomes accessible only after a successful login.
 
+# Login PHP Script
+
+This repository contains the `login.php` script in the `phpFile` directory. It handles the login functionality for user authentication using PHP.
+phpFile/ └── login.php
+[Click here to visit Login.php](https://github.com/MrTusarRX/Gods-Team-Login-Layout/tree/main/phpFile)
+## Directory Structure
+
 ---
 
 ## Features
