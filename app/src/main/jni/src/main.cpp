@@ -58,7 +58,8 @@ extern "C"
 JNIEXPORT void JNICALL
 Java_uk_lgl_modmenu_MainActivity_setDarkStart(JNIEnv *env, jobject thiz, jobject ctx) {
     if (isLoggedIn) {
-        CheckFloatingPermison(env, ctx); 
+        CheckFloatingPermison(env, ctx);
+        setDialog(ctx,env,OBFUSCATE("Title"),OBFUSCATE("Message Example"));
     }
 }
 
