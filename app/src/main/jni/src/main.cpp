@@ -137,7 +137,10 @@ JNIEXPORT void JNICALL
 Java_uk_lgl_modmenu_FloatingModMenuService_StartOptionsDark(JNIEnv *env, jobject thiz, jobject ctx, jobject title, jobject subtitle) {
     setText(env, title, OBFUSCATE("Dark Inject"));
     setText(env, subtitle, OBFUSCATE("メ Tᵘˢᵃʳ"));
-    
+    //Botton ON OFF
+    AddButton(env, ctx, OBFUSCATE("Example 1"), 0);
+    //SkeedBar
+    AddSkeedBar(env, ctx, OBFUSCATE("Example 3"),0,100, 2);
     AddCategory(env, ctx, OBFUSCATE("Menu Example"));
     AddSwich(env, ctx, OBFUSCATE("Unlimited Medikit"), 0);
     AddSwich(env, ctx, OBFUSCATE("Unlimited ammo"), 1);
